@@ -1,3 +1,12 @@
 # Intelligent-assistant_Model
 
-##1: BTC(Bitcoin)\n2: ETH(Ethereum)\n3: LUNA(Terra)\n4: SHIB(Shiba lnu)\n5: SOL(Solana)\n6: XRP(XRP)\n7: ADA(Cardano)\n8: WAVES(Waves)\n9: AVAX(Avalanche)\n10: USDT(Tether)
+##1: BTC(Bitcoin)
+##2: ETH(Ethereum)
+##3: LUNA(Terra)
+##4: SHIB(Shiba lnu)
+##5: SOL(Solana)
+##6: XRP(XRP)
+##7: ADA(Cardano)
+##8: WAVES(Waves)
+##9: AVAX(Avalanche)
+##10: USDT(Tether)
