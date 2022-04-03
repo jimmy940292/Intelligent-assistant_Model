@@ -16,7 +16,7 @@
     10: USDT(Tether)
 
 ### Create Crypto Model 
-
+    ```python
     import Create_Crypto_model
 
     Create_Crypto_model.Crypto_model(Crypto_Name)
@@ -28,7 +28,7 @@
         Create_Crypto_model.Crypto_model('BTC') 
 
 ### Predict Crypto Price
-
+    ```python
     import Predict_Crypto
 
     predict_price, predict_per = Predict_Crypto.Predict(Crypto_Name)    
@@ -61,7 +61,7 @@
     10: 2618(長榮航)
 
 ### Create Stock Model 
-
+    ```python
     import Create_Stock_model
 
     Create_Stock_model.Crypto_model(Stock_Name)
@@ -73,7 +73,7 @@
         Create_Stock_model.Stock_model('2330') 
 
 ### Predict Stock Price
-
+    ```python
     import Predict_Stock
 
     predict_price, predict_per = Predict_Stock.Predict(Stock_Name)    
