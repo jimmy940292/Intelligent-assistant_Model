@@ -1,6 +1,6 @@
 # Intelligent-assistant_Model
 
-## Crypto 
+## **Crypto** 
 
 ### Support 10 cryptocurrency 
 
@@ -23,7 +23,7 @@
 
 ####    Format 
 
-#####   Input: (string) Crypto_Name 
+#####   > Input: (string) Crypto_Name 
     ex: 
         Create_Crypto_model.Crypto_model('BTC') 
 
@@ -35,16 +35,16 @@
 
 ####    Format 
 
-#####   Input: (string) Crypto_Name
+#####   > Input: (string) Crypto_Name
     ex: 
         predict_price, predict_per = Predict_Crypto.Predict('BTC') 
     
-#####   Output: (string) predict_price, (string) predict_per 
+#####   > Output: (string) predict_price, (string) predict_per 
     ex:     
         2022-04-03 09:00:00 46303.97 
         預測會下跌0.0892% 
 
-## Stock 
+## **Stock** 
 
 ### Support 10 Stock
 
@@ -67,7 +67,7 @@
 
 ####    Format 
 
-#####   Input: (string) Stock_Name 
+#####   > Input: (string) Stock_Name 
     ex: 
         Create_Stock_model.Stock_model('2330') 
 
@@ -79,11 +79,11 @@
 
 ####    Format 
 
-#####   Input: (string) Stock_Name
+#####   > Input: (string) Stock_Name
     ex: 
         predict_price, predict_per = Predict_Stock.Predict('2330') 
     
-#####   Output: (string) predict_price, (string) predict_per 
+#####   > Output: (string) predict_price, (string) predict_per 
     ex:     
         2022-04-03 09:00:00 46303.97 
         預測會下跌0.0892% 
