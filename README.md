@@ -16,11 +16,11 @@
     10: USDT(Tether)
 
 ### Create Crypto Model 
-    ```Python
+    
     import Create_Crypto_model
 
     Create_Crypto_model.Crypto_model(Crypto_Name)
-    ```
+    
 #####    Format 
 
     * Input: (string) Crypto_Name
@@ -28,11 +28,11 @@
         Create_Crypto_model.Crypto_model('BTC') 
 
 ### Predict Crypto Price
-    ```Python
+    
     import Predict_Crypto
 
     predict_price, predict_per = Predict_Crypto.Predict(Crypto_Name)    
-    ```
+    
 #####    Format 
 
     * Input: (string) Crypto_Name
@@ -61,11 +61,11 @@
     10: 2618(長榮航)
 
 ### Create Stock Model 
-    ```Python
+    
     import Create_Stock_model
 
     Create_Stock_model.Crypto_model(Stock_Name)
-    ```
+    
 #####    Format 
 
     * Input: (string) Stock_Name 
@@ -73,11 +73,11 @@
         Create_Stock_model.Stock_model('2330') 
 
 ### Predict Stock Price
-    ```Python
+    
     import Predict_Stock
 
     predict_price, predict_per = Predict_Stock.Predict(Stock_Name)    
-    ```
+    
 #####    Format 
 
     * Input: (string) Stock_Name
