@@ -15,14 +15,24 @@
     9: AVAX(Avalanche)  
     10: USDT(Tether)
 
-### Crete Crypto Model 
+### Create Crypto Model 
 
     import Create_Crypto_model 
 
-    Create_Crypto_model.Crypto_model(str Crypto_Name) 
+    Create_Crypto_model.Crypto_model( Crypto_Name)
 
+#### Format 
+    Input: string Crypto_Name 
+        Create_Crypto_model.Crypto_model( 'BTC') 
 ### Predict Crypto Price
 
     import Predict_BTC 
 
-    Create_Crypto_model.Crypto_model(str Crypto_Name)  
+    predict_price, predict_per = Predict_BTC.Predict(Crypto_Name)    
+
+#### Format 
+    Input: string Crypto_Name
+        predict_price, predict_per = Predict_BTC.Predict('BTC') 
+    Output: string predict_price, string predict_per 
+        2022-04-03 09:00:00 46303.97 
+        預測會下跌0.0892% 
