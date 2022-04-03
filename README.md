@@ -18,7 +18,7 @@
 ### Create Crypto Model 
 
     import Create_Crypto_model
-     
+
     Create_Crypto_model.Crypto_model(Crypto_Name)
 
 ####    Format 
@@ -69,7 +69,7 @@
 
 #####   Input: (string) Stock_Name 
     ex: 
-        Create_Stock_model.Stock_model('BTC') 
+        Create_Stock_model.Stock_model('2330') 
 
 ### Predict Stock Price
 
@@ -81,7 +81,7 @@
 
 #####   Input: (string) Stock_Name
     ex: 
-        predict_price, predict_per = Predict_Stock.Predict('BTC') 
+        predict_price, predict_per = Predict_Stock.Predict('2330') 
     
 #####   Output: (string) predict_price, (string) predict_per 
     ex:     
