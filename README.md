@@ -31,10 +31,12 @@ Create_Crypto_model.Crypto_model(Crypto_Name)
 
 ### Predict Crypto Price
     
-    import Predict_Crypto
+```python
+import Predict_Crypto
 
-    predict_price, predict_per = Predict_Crypto.Predict(Crypto_Name)    
-    
+predict_price, predict_per = Predict_Crypto.Predict(Crypto_Name)    
+```   
+
 #####    Format 
 
     * Input: (string) Crypto_Name
@@ -64,10 +66,12 @@ Create_Crypto_model.Crypto_model(Crypto_Name)
 
 ### Create Stock Model 
     
-    import Create_Stock_model
+```python
+import Create_Stock_model
 
-    Create_Stock_model.Crypto_model(Stock_Name)
-    
+Create_Stock_model.Crypto_model(Stock_Name)
+``` 
+
 #####    Format 
 
     * Input: (string) Stock_Name 
@@ -76,10 +80,12 @@ Create_Crypto_model.Crypto_model(Crypto_Name)
 
 ### Predict Stock Price
     
-    import Predict_Stock
+```python
+import Predict_Stock
 
-    predict_price, predict_per = Predict_Stock.Predict(Stock_Name)    
-    
+predict_price, predict_per = Predict_Stock.Predict(Stock_Name)    
+```  
+
 #####    Format 
 
     * Input: (string) Stock_Name
