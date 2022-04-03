@@ -17,7 +17,7 @@
 
 ### Create Crypto Model 
     
-    ``python 
+    ```python 
     import Create_Crypto_model
 
     Create_Crypto_model.Crypto_model(Crypto_Name)
