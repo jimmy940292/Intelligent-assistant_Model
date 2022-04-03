@@ -23,7 +23,8 @@
 #### Format 
 
 ##### Input: (string) Crypto_Name 
-    ex: Create_Crypto_model.Crypto_model('BTC') 
+    ex: 
+        Create_Crypto_model.Crypto_model('BTC') 
 
 ### Predict Crypto Price
 
@@ -33,8 +34,10 @@
 #### Format 
 
 ##### Input: (string) Crypto_Name
-    ex: predict_price, predict_per = Predict_Crypto.Predict('BTC') 
+    ex: 
+        predict_price, predict_per = Predict_Crypto.Predict('BTC') 
     
 ##### Output: (string) predict_price, (string) predict_per 
-    ex:     2022-04-03 09:00:00 46303.97 
+    ex:     
+        2022-04-03 09:00:00 46303.97 
             預測會下跌0.0892% 
