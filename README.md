@@ -23,7 +23,7 @@
 
 ####    Format 
 
-#####   * Input: (string) Crypto_Name 
+   * Input: (string) Crypto_Name 
     ex: 
         Create_Crypto_model.Crypto_model('BTC') 
 
