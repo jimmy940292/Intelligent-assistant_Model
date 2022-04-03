@@ -17,7 +17,8 @@
 
 ### Create Crypto Model 
 
-    import Create_Crypto_model 
+    import Create_Crypto_model
+     
     Create_Crypto_model.Crypto_model(Crypto_Name)
 
 ####    Format 
@@ -28,7 +29,8 @@
 
 ### Predict Crypto Price
 
-    import Predict_Crypto 
+    import Predict_Crypto
+
     predict_price, predict_per = Predict_Crypto.Predict(Crypto_Name)    
 
 ####    Format 
@@ -59,7 +61,8 @@
 
 ### Create Stock Model 
 
-    import Create_Stock_model 
+    import Create_Stock_model
+
     Create_Stock_model.Crypto_model(Stock_Name)
 
 ####    Format 
@@ -70,7 +73,8 @@
 
 ### Predict Stock Price
 
-    import Predict_Stock 
+    import Predict_Stock
+
     predict_price, predict_per = Predict_Stock.Predict(Stock_Name)    
 
 ####    Format 
