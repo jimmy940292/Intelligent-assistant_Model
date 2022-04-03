@@ -27,14 +27,14 @@
 
 ### Predict Crypto Price
 
-    import Predict_BTC 
-    predict_price, predict_per = Predict_BTC.Predict(Crypto_Name)    
+    import Predict_Crypto 
+    predict_price, predict_per = Predict_Crypto.Predict(Crypto_Name)    
 
 #### Format 
 
 ##### Input: (string) Crypto_Name
-        ex: predict_price, predict_per = Predict_BTC.Predict('BTC') 
+    ex: predict_price, predict_per = Predict_Crypto.Predict('BTC') 
     
 ##### Output: (string) predict_price, (string) predict_per 
-       ex: 2022-04-03 09:00:00 46303.97 
-        預測會下跌0.0892% 
+    ex:     2022-04-03 09:00:00 46303.97 
+            預測會下跌0.0892% 
