@@ -17,11 +17,11 @@
 
 ### Create Crypto Model 
     
-    ```python 
-    import Create_Crypto_model
+```python 
+import Create_Crypto_model
 
-    Create_Crypto_model.Crypto_model(Crypto_Name)
-    ``` 
+Create_Crypto_model.Crypto_model(Crypto_Name)
+``` 
     
 #####    Format 
 
