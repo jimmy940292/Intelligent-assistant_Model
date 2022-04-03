@@ -40,4 +40,4 @@
 ##### Output: (string) predict_price, (string) predict_per 
     ex:     
         2022-04-03 09:00:00 46303.97 
-            預測會下跌0.0892% 
+        預測會下跌0.0892% 
