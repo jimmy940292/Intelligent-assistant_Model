@@ -1,4 +1,4 @@
-# Intelligent-assistant_Model
+# Intelligent-assistant Model
 
 ## **Crypto** 
 
