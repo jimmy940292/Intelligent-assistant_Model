@@ -69,7 +69,7 @@ predict_price, predict_per = Predict_Crypto.Predict(Crypto_Name)
 ```python
 import Create_Stock_model
 
-Create_Stock_model.Crypto_model(Stock_Name)
+Create_Stock_model.Stock_model(Stock_Name)
 ``` 
 
 #####    Format 
